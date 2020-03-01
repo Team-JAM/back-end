@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 django = "*"
 python-decouple = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.8"
