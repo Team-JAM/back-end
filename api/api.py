@@ -10,11 +10,12 @@ import json
 @api_view(['GET'])
 def map(request):
     rooms = Room.objects.all()
-    x_max = 26
-    y_max = 31
-    grid = [[0]*x_max for i in range(y_max)]
+    x_max = 30
+    y_max = 30
+    offset = 45
+    grid = [[None]*x_max for i in range(y_max)]
     for room in rooms:
-        grid[room.y_coord][room.x_coord] = room.to_json()
+        grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
     return JsonResponse({'map': grid}, safe=True)
 
 @csrf_exempt

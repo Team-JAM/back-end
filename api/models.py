@@ -56,13 +56,13 @@ class Room(models.Model):
             self.w_to = -1
         self.save()
 
-    def to_json(self):
+    def to_json(self, offset):
         return {
             'id': self.id,
             'title': self.title,
             'description': self.description,
-            'x_coord': self.x_coord,
-            'y_coord': self.y_coord,
+            'x_coord': self.x_coord - offset,
+            'y_coord': self.y_coord - offset,
             'elevation': self.elevation,
             'terrain': self.terrain,
             'exits': self.get_exits()
