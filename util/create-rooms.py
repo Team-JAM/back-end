@@ -1,3 +1,6 @@
+# run this script in the django shell to create rooms
+# copy and paste in sections (separted by comments)
+
 from api.models import Room
 import json
 
@@ -8,12 +11,18 @@ room_data = json.load(open('util/rooms.json', 'r'))
 # create new rooms
 for room in room_data:
     r = room_data[room]
-    coords = r['coordinates'].strip(['(', ')'])
+    # coords for testing only - delete when get actual map
+    coords = r['coordinates'].strip('()').split(',')
+    x_coord = coords[0]
+    y_coord = coords[1]
+
     new_room = Room(id=r['room_id'])
     new_room.title = r['title']
     new_room.description = r['description']
-    new_room.x_coord = r['x_coord']
-    new_room.y_coord = r['y_coord']
+    # new_room.x_coord = r['x_coord']
+    # new_room.y_coord = r['y_coord']
+    new_room.x_coord = x_coord
+    new_room.y_coord = y_coord
     new_room.elevation = r['elevation']
     new_room.terrain = r['terrain']
     new_room.save()
@@ -23,4 +32,4 @@ all_rooms = Room.objects.all()
 
 for room in all_rooms:
     for e in room_data[f"{room.id}"]['exits']:
-        new_room.connect_rooms(r['exits'][e], e)
+        room.connect_rooms(room_data[f"{room.id}"]['exits'][e], e)

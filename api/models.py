@@ -13,8 +13,7 @@ class Room(models.Model):
     elevation = models.IntegerField(default=0)
     terrain = models.CharField(max_length=32, default="NORMAL")
 
-    def connect_rooms(self, destinationRoom, direction):
-        destinationRoomID = destinationRoom.id
+    def connect_rooms(self, destinationRoomID, direction):
         try:
             destinationRoom = Room.objects.get(id=destinationRoomID)
         except Room.DoesNotExist:
@@ -22,21 +21,16 @@ class Room(models.Model):
         else:
             if direction == "n":
                 self.n_to = destinationRoomID
-                destinationRoom.s_to = self.id
             elif direction == "s":
                 self.s_to = destinationRoomID
-                destinationRoom.n_to = self.id
             elif direction == "e":
                 self.e_to = destinationRoomID
-                destinationRoom.w_to = self.id
             elif direction == "w":
                 self.w_to = destinationRoomID
-                destinationRoom.e_to = self.id
             else:
                 print("Invalid direction")
                 return
             self.save()
-            destinationRoom.save()
 
     def get_exits(self):
         exits = {}
