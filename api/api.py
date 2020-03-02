@@ -26,8 +26,8 @@ def get_directions(request):
     starting_room to destination_room.
     """
     data = json.loads(request.body)
-    starting_room = data['starting_room']
-    destination_room = data['destination_room']
+    starting_room = int(data['starting_room'])
+    destination_room = int(data['destination_room'])
 
     # Create an empty queue
     queue = Queue()
@@ -43,21 +43,25 @@ def get_directions(request):
         room = path[-1][1]
         # If room is the desination, return the path
         if room == destination_room:
-            return path[1:]
+            return JsonResponse({'path': path[1:]}, safe=True)
         # If it has not been visited...
         if room not in visited:
             # Mark it as visited
             visited.add(room)
             # Then add a path all neighbors to the back of the queue
-            current_room = Room.objects.get(id=room)
+            try:
+                current_room = Room.objects.get(id=room)
+            except Room.DoesNotExist:
+                return JsonResponse({'error': f"Room {room} does not exist", 'path': path}, safe=True)
             adjacent_rooms = []
-            if current_room.n_to:
+            if current_room.n_to is not None:
                 adjacent_rooms.append(('n', current_room.n_to))
-            if current_room.s_to:
-                adjacent_rooms.append(('s', current_room.n_to))
-            if current_room.e_to:
-                adjacent_rooms.append(('e', current_room.n_to))
-            if current_room.w_to:
-                adjacent_rooms.append(('w', current_room.n_to))
+            if current_room.s_to is not None:
+                adjacent_rooms.append(('s', current_room.s_to))
+            if current_room.e_to is not None:
+                adjacent_rooms.append(('e', current_room.e_to))
+            if current_room.w_to is not None:
+                adjacent_rooms.append(('w', current_room.w_to))
             for next_room in adjacent_rooms:
                 queue.enqueue(path + [next_room])
+    return JsonResponse({'error': list(visited)}, safe=True)
