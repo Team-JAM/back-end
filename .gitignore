@@ -5,3 +5,9 @@
 db.sqlite3
 
 Pipfile.lock
+api/graph.py
+api/main.py
+api/map_the_world.py
+api/__pycache__/models.cpython-37.pyc
+api/__pycache__/utils.cpython-37.pyc
+api/get_directions.py
