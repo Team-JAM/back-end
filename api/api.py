@@ -9,9 +9,9 @@ import json
 @api_view(['GET'])
 def map(request):
     rooms = Room.objects.all()
-    x_max = 19
-    y_max = 9
+    x_max = 26
+    y_max = 31
     grid = [[0]*x_max for i in range(y_max)]
     for room in rooms:
-        grid[room.y_coord][room.x_coord] = room.toJSON()
+        grid[room.y_coord][room.x_coord] = room.to_json()
     return JsonResponse({'map': grid}, safe=True)

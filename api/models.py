@@ -39,15 +39,15 @@ class Room(models.Model):
             destinationRoom.save()
 
     def get_exits(self):
-        exits = []
+        exits = {}
         if self.n_to is not None:
-            exits.append("n")
+            exits['n'] = self.n_to
         if self.s_to is not None:
-            exits.append("s")
+            exits['s'] = self.s_to
         if self.e_to is not None:
-            exits.append("e")
+            exits['e'] = self.e_to
         if self.w_to is not None:
-            exits.append("w")
+            exits['w'] = self.w_to
         return exits
 
     def init_exits(self, exit_list):
@@ -61,3 +61,15 @@ class Room(models.Model):
         if 'w' in exit_list:
             self.w_to = -1
         self.save()
+
+    def to_json(self):
+        return {
+            'id': self.id,
+            'title': self.title,
+            'description': self.description,
+            'x_coord': self.x_coord,
+            'y_coord': self.y_coord,
+            'elevation': self.elevation,
+            'terrain': self.terrain,
+            'exits': self.get_exits()
+        }
