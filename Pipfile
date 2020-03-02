@@ -11,6 +11,7 @@ python-decouple = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 dj-database-url = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.8"
