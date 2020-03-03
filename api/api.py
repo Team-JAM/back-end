@@ -89,7 +89,7 @@ def get_directions(request):
                 queue.enqueue(path + [next_room])
     return JsonResponse({'error': list(visited)}, safe=True)
 
-<<<<<<< Updated upstream
+
 def get_pathing(path):
     path_directions = []
     next_position = 1
@@ -133,7 +133,7 @@ def get_pathing(path):
         
     
     return path_directions
-=======
+
 @csrf_exempt
 @api_view(['POST'])
 def well(request):
@@ -155,4 +155,3 @@ def well(request):
     return JsonResponse({'status': r.status_code }, safe=True)
 
     # decode message
->>>>>>> Stashed changes
