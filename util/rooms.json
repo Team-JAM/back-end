@@ -6506,5 +6506,6503 @@
     "exits": {
       "s": 350
     }
+  },
+  "762": {
+    "id": 762,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 874,
+      "w": 728
+    }
+  },
+  "874": {
+    "id": 874,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 902,
+      "w": 762
+    }
+  },
+  "902": {
+    "id": 902,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 71,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 956,
+      "w": 874
+    }
+  },
+  "956": {
+    "id": 956,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 72,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 960,
+      "w": 902
+    }
+  },
+  "960": {
+    "id": 960,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 73,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 966,
+      "w": 956
+    }
+  },
+  "966": {
+    "id": 966,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 74,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 992,
+      "w": 960
+    }
+  },
+  "992": {
+    "id": 992,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 75,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 966
+    }
+  },
+  "728": {
+    "id": 728,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 741,
+      "e": 762,
+      "w": 724
+    }
+  },
+  "741": {
+    "id": 741,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 728,
+      "e": 793
+    }
+  },
+  "793": {
+    "id": 793,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 808,
+      "e": 901,
+      "w": 741
+    }
+  },
+  "808": {
+    "id": 808,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 821,
+      "s": 793,
+      "e": 920
+    }
+  },
+  "821": {
+    "id": 821,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 974,
+      "s": 808,
+      "e": 953
+    }
+  },
+  "974": {
+    "id": 974,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 821
+    }
+  },
+  "953": {
+    "id": 953,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 821
+    }
+  },
+  "920": {
+    "id": 920,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 946,
+      "w": 808
+    }
+  },
+  "946": {
+    "id": 946,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 71,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 920
+    }
+  },
+  "901": {
+    "id": 901,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 793
+    }
+  },
+  "724": {
+    "id": 724,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 737,
+      "s": 748,
+      "e": 728,
+      "w": 711
+    }
+  },
+  "737": {
+    "id": 737,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 756,
+      "s": 724
+    }
+  },
+  "756": {
+    "id": 756,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 737,
+      "e": 868
+    }
+  },
+  "868": {
+    "id": 868,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 885,
+      "w": 756
+    }
+  },
+  "885": {
+    "id": 885,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 868
+    }
+  },
+  "748": {
+    "id": 748,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 724,
+      "s": 772,
+      "e": 764
+    }
+  },
+  "764": {
+    "id": 764,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 769,
+      "e": 848,
+      "w": 748
+    }
+  },
+  "848": {
+    "id": 848,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 853,
+      "w": 764
+    }
+  },
+  "853": {
+    "id": 853,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 958,
+      "e": 939,
+      "w": 848
+    }
+  },
+  "939": {
+    "id": 939,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 71,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 853
+    }
+  },
+  "958": {
+    "id": 958,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 853,
+      "s": 972
+    }
+  },
+  "972": {
+    "id": 972,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 70,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 958
+    }
+  },
+  "769": {
+    "id": 769,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 764,
+      "s": 799,
+      "e": 847
+    }
+  },
+  "847": {
+    "id": 847,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 769
+    }
+  },
+  "799": {
+    "id": 799,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 769,
+      "e": 908
+    }
+  },
+  "908": {
+    "id": 908,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 799
+    }
+  },
+  "772": {
+    "id": 772,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 748,
+      "s": 780
+    }
+  },
+  "780": {
+    "id": 780,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 772,
+      "s": 818
+    }
+  },
+  "818": {
+    "id": 818,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 780,
+      "s": 877,
+      "e": 829
+    }
+  },
+  "829": {
+    "id": 829,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 912,
+      "w": 818
+    }
+  },
+  "912": {
+    "id": 912,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 829
+    }
+  },
+  "877": {
+    "id": 877,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 818,
+      "s": 997,
+      "e": 937
+    }
+  },
+  "937": {
+    "id": 937,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 877
+    }
+  },
+  "997": {
+    "id": 997,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 877
+    }
+  },
+  "711": {
+    "id": 711,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 721,
+      "e": 724,
+      "w": 633
+    }
+  },
+  "721": {
+    "id": 721,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 711
+    }
+  },
+  "633": {
+    "id": 633,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 711,
+      "w": 623
+    }
+  },
+  "623": {
+    "id": 623,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 609,
+      "e": 633
+    }
+  },
+  "609": {
+    "id": 609,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 603,
+      "s": 623,
+      "e": 652
+    }
+  },
+  "603": {
+    "id": 603,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 618,
+      "s": 609,
+      "w": 520
+    }
+  },
+  "618": {
+    "id": 618,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 603,
+      "e": 631
+    }
+  },
+  "631": {
+    "id": 631,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 646,
+      "w": 618
+    }
+  },
+  "646": {
+    "id": 646,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 631,
+      "e": 662
+    }
+  },
+  "662": {
+    "id": 662,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 675,
+      "w": 646
+    }
+  },
+  "675": {
+    "id": 675,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 662,
+      "e": 768
+    }
+  },
+  "768": {
+    "id": 768,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 675
+    }
+  },
+  "520": {
+    "id": 520,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 579,
+      "e": 603,
+      "w": 519
+    }
+  },
+  "579": {
+    "id": 579,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 601,
+      "s": 520
+    }
+  },
+  "601": {
+    "id": 601,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 617,
+      "s": 579,
+      "e": 629
+    }
+  },
+  "617": {
+    "id": 617,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 645,
+      "s": 601
+    }
+  },
+  "645": {
+    "id": 645,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 617
+    }
+  },
+  "629": {
+    "id": 629,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 684,
+      "e": 667,
+      "w": 601
+    }
+  },
+  "684": {
+    "id": 684,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 718,
+      "s": 629,
+      "e": 687
+    }
+  },
+  "718": {
+    "id": 718,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 734,
+      "s": 684,
+      "e": 782
+    }
+  },
+  "734": {
+    "id": 734,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 718
+    }
+  },
+  "782": {
+    "id": 782,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 718
+    }
+  },
+  "687": {
+    "id": 687,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 806,
+      "w": 684
+    }
+  },
+  "806": {
+    "id": 806,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 909,
+      "w": 687
+    }
+  },
+  "909": {
+    "id": 909,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 910,
+      "s": 806,
+      "e": 917
+    }
+  },
+  "910": {
+    "id": 910,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 909
+    }
+  },
+  "917": {
+    "id": 917,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 929,
+      "w": 909
+    }
+  },
+  "929": {
+    "id": 929,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 917
+    }
+  },
+  "667": {
+    "id": 667,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 717,
+      "w": 629
+    }
+  },
+  "717": {
+    "id": 717,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 820,
+      "w": 667
+    }
+  },
+  "820": {
+    "id": 820,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 866,
+      "e": 876,
+      "w": 717
+    }
+  },
+  "866": {
+    "id": 866,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 820
+    }
+  },
+  "876": {
+    "id": 876,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 820
+    }
+  },
+  "519": {
+    "id": 519,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 563,
+      "s": 583,
+      "e": 520,
+      "w": 518
+    }
+  },
+  "563": {
+    "id": 563,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 519
+    }
+  },
+  "583": {
+    "id": 583,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 519,
+      "e": 595
+    }
+  },
+  "595": {
+    "id": 595,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 583
+    }
+  },
+  "518": {
+    "id": 518,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 519,
+      "w": 507
+    }
+  },
+  "507": {
+    "id": 507,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 514,
+      "s": 506,
+      "e": 518,
+      "w": 511
+    }
+  },
+  "514": {
+    "id": 514,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 521,
+      "s": 507,
+      "e": 515
+    }
+  },
+  "521": {
+    "id": 521,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 522,
+      "s": 514
+    }
+  },
+  "522": {
+    "id": 522,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 536,
+      "s": 521
+    }
+  },
+  "536": {
+    "id": 536,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 658,
+      "s": 522
+    }
+  },
+  "658": {
+    "id": 658,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 678,
+      "s": 536,
+      "e": 672
+    }
+  },
+  "678": {
+    "id": 678,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 658,
+      "e": 703
+    }
+  },
+  "703": {
+    "id": 703,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 709,
+      "e": 733,
+      "w": 678
+    }
+  },
+  "709": {
+    "id": 709,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 736,
+      "s": 703,
+      "e": 712
+    }
+  },
+  "736": {
+    "id": 736,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 709,
+      "e": 786
+    }
+  },
+  "786": {
+    "id": 786,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 798,
+      "e": 961,
+      "w": 736
+    }
+  },
+  "798": {
+    "id": 798,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 889,
+      "s": 786
+    }
+  },
+  "889": {
+    "id": 889,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 919,
+      "s": 798,
+      "e": 923,
+      "w": 915
+    }
+  },
+  "919": {
+    "id": 919,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 889
+    }
+  },
+  "923": {
+    "id": 923,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 889
+    }
+  },
+  "915": {
+    "id": 915,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 889
+    }
+  },
+  "961": {
+    "id": 961,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 786
+    }
+  },
+  "712": {
+    "id": 712,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 739,
+      "w": 709
+    }
+  },
+  "739": {
+    "id": 739,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 712
+    }
+  },
+  "733": {
+    "id": 733,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 740,
+      "w": 703
+    }
+  },
+  "740": {
+    "id": 740,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 770,
+      "e": 751,
+      "w": 733
+    }
+  },
+  "751": {
+    "id": 751,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 810,
+      "e": 794,
+      "w": 740
+    }
+  },
+  "810": {
+    "id": 810,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 751
+    }
+  },
+  "794": {
+    "id": 794,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 802,
+      "s": 896,
+      "e": 841,
+      "w": 751
+    }
+  },
+  "802": {
+    "id": 802,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 830,
+      "s": 794,
+      "e": 865
+    }
+  },
+  "830": {
+    "id": 830,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 802
+    }
+  },
+  "865": {
+    "id": 865,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 924,
+      "e": 897,
+      "w": 802
+    }
+  },
+  "924": {
+    "id": 924,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 865,
+      "e": 979
+    }
+  },
+  "979": {
+    "id": 979,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 924
+    }
+  },
+  "897": {
+    "id": 897,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 986,
+      "w": 865
+    }
+  },
+  "986": {
+    "id": 986,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 897
+    }
+  },
+  "841": {
+    "id": 841,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 962,
+      "w": 794
+    }
+  },
+  "962": {
+    "id": 962,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 963,
+      "w": 841
+    }
+  },
+  "963": {
+    "id": 963,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 962,
+      "e": 982
+    }
+  },
+  "982": {
+    "id": 982,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 995,
+      "w": 963
+    }
+  },
+  "995": {
+    "id": 995,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 982,
+      "e": 996
+    }
+  },
+  "996": {
+    "id": 996,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 69,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 995
+    }
+  },
+  "896": {
+    "id": 896,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 794
+    }
+  },
+  "770": {
+    "id": 770,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 740
+    }
+  },
+  "672": {
+    "id": 672,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 658
+    }
+  },
+  "515": {
+    "id": 515,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 576,
+      "w": 514
+    }
+  },
+  "576": {
+    "id": 576,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 582,
+      "s": 515,
+      "e": 578
+    }
+  },
+  "582": {
+    "id": 582,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 642,
+      "s": 576,
+      "e": 644
+    }
+  },
+  "642": {
+    "id": 642,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 582
+    }
+  },
+  "644": {
+    "id": 644,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 664,
+      "w": 582
+    }
+  },
+  "664": {
+    "id": 664,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 680,
+      "s": 644
+    }
+  },
+  "680": {
+    "id": 680,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 664
+    }
+  },
+  "578": {
+    "id": 578,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 576
+    }
+  },
+  "506": {
+    "id": 506,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 507,
+      "s": 504,
+      "e": 531,
+      "w": 529
+    }
+  },
+  "531": {
+    "id": 531,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 506
+    }
+  },
+  "504": {
+    "id": 504,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 506,
+      "s": 500,
+      "e": 544,
+      "w": 523
+    }
+  },
+  "544": {
+    "id": 544,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 552,
+      "w": 504
+    }
+  },
+  "552": {
+    "id": 552,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 604,
+      "w": 544
+    }
+  },
+  "604": {
+    "id": 604,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 552
+    }
+  },
+  "500": {
+    "id": 500,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 504,
+      "s": 502,
+      "e": 503,
+      "w": 501
+    }
+  },
+  "503": {
+    "id": 503,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 500
+    }
+  },
+  "502": {
+    "id": 502,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 500,
+      "s": 508,
+      "e": 505,
+      "w": 509
+    }
+  },
+  "505": {
+    "id": 505,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 525,
+      "w": 502
+    }
+  },
+  "525": {
+    "id": 525,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 560,
+      "s": 542,
+      "e": 533,
+      "w": 505
+    }
+  },
+  "560": {
+    "id": 560,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 525,
+      "e": 602
+    }
+  },
+  "602": {
+    "id": 602,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 612,
+      "w": 560
+    }
+  },
+  "612": {
+    "id": 612,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 637,
+      "e": 635,
+      "w": 602
+    }
+  },
+  "635": {
+    "id": 635,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 720,
+      "w": 612
+    }
+  },
+  "720": {
+    "id": 720,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 635
+    }
+  },
+  "637": {
+    "id": 637,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 612,
+      "s": 651,
+      "e": 650
+    }
+  },
+  "650": {
+    "id": 650,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 758,
+      "w": 637
+    }
+  },
+  "758": {
+    "id": 758,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 650
+    }
+  },
+  "651": {
+    "id": 651,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 637,
+      "e": 674
+    }
+  },
+  "674": {
+    "id": 674,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 778,
+      "w": 651
+    }
+  },
+  "778": {
+    "id": 778,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 815,
+      "w": 674
+    }
+  },
+  "815": {
+    "id": 815,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 778,
+      "s": 825
+    }
+  },
+  "825": {
+    "id": 825,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 815,
+      "s": 854
+    }
+  },
+  "854": {
+    "id": 854,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 825
+    }
+  },
+  "533": {
+    "id": 533,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 539,
+      "w": 525
+    }
+  },
+  "539": {
+    "id": 539,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 533,
+      "s": 540
+    }
+  },
+  "540": {
+    "id": 540,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 539,
+      "e": 585
+    }
+  },
+  "585": {
+    "id": 585,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 682,
+      "w": 540
+    }
+  },
+  "682": {
+    "id": 682,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 585
+    }
+  },
+  "542": {
+    "id": 542,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 525,
+      "s": 549,
+      "w": 554
+    }
+  },
+  "549": {
+    "id": 549,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 542,
+      "s": 556
+    }
+  },
+  "556": {
+    "id": 556,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 549,
+      "s": 600,
+      "e": 598
+    }
+  },
+  "598": {
+    "id": 598,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 659,
+      "w": 556
+    }
+  },
+  "659": {
+    "id": 659,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 665,
+      "e": 754,
+      "w": 598
+    }
+  },
+  "754": {
+    "id": 754,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 659
+    }
+  },
+  "665": {
+    "id": 665,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 659,
+      "s": 723,
+      "e": 700
+    }
+  },
+  "700": {
+    "id": 700,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 813,
+      "w": 665
+    }
+  },
+  "813": {
+    "id": 813,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 700,
+      "s": 831,
+      "e": 858
+    }
+  },
+  "858": {
+    "id": 858,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 907,
+      "e": 879,
+      "w": 813
+    }
+  },
+  "879": {
+    "id": 879,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 858
+    }
+  },
+  "907": {
+    "id": 907,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 858,
+      "e": 925
+    }
+  },
+  "925": {
+    "id": 925,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 965,
+      "w": 907
+    }
+  },
+  "965": {
+    "id": 965,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 925,
+      "e": 980
+    }
+  },
+  "980": {
+    "id": 980,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 999,
+      "w": 965
+    }
+  },
+  "999": {
+    "id": 999,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 68,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 980
+    }
+  },
+  "831": {
+    "id": 831,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 813
+    }
+  },
+  "723": {
+    "id": 723,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 665,
+      "s": 816
+    }
+  },
+  "816": {
+    "id": 816,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 723
+    }
+  },
+  "600": {
+    "id": 600,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 556,
+      "s": 648,
+      "e": 610
+    }
+  },
+  "610": {
+    "id": 610,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 732,
+      "w": 600
+    }
+  },
+  "732": {
+    "id": 732,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 610,
+      "s": 779
+    }
+  },
+  "779": {
+    "id": 779,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 732
+    }
+  },
+  "648": {
+    "id": 648,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 600,
+      "s": 735,
+      "w": 673
+    }
+  },
+  "735": {
+    "id": 735,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 648
+    }
+  },
+  "673": {
+    "id": 673,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 648
+    }
+  },
+  "554": {
+    "id": 554,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 567,
+      "e": 542
+    }
+  },
+  "567": {
+    "id": 567,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 554,
+      "s": 574
+    }
+  },
+  "574": {
+    "id": 574,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 567,
+      "s": 588
+    }
+  },
+  "588": {
+    "id": 588,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 574
+    }
+  },
+  "508": {
+    "id": 508,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 502,
+      "s": 561
+    }
+  },
+  "561": {
+    "id": 561,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 508,
+      "s": 571
+    }
+  },
+  "571": {
+    "id": 571,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 561,
+      "s": 584
+    }
+  },
+  "584": {
+    "id": 584,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 571,
+      "s": 669
+    }
+  },
+  "669": {
+    "id": 669,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 584,
+      "s": 695
+    }
+  },
+  "695": {
+    "id": 695,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 669,
+      "s": 757,
+      "e": 696
+    }
+  },
+  "696": {
+    "id": 696,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 753,
+      "w": 695
+    }
+  },
+  "753": {
+    "id": 753,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 696,
+      "s": 784,
+      "e": 775
+    }
+  },
+  "775": {
+    "id": 775,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 823,
+      "e": 790,
+      "w": 753
+    }
+  },
+  "790": {
+    "id": 790,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 835,
+      "w": 775
+    }
+  },
+  "835": {
+    "id": 835,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 883,
+      "w": 790
+    }
+  },
+  "883": {
+    "id": 883,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 890,
+      "e": 891,
+      "w": 835
+    }
+  },
+  "891": {
+    "id": 891,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 969,
+      "w": 883
+    }
+  },
+  "969": {
+    "id": 969,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 66,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 891,
+      "e": 984
+    }
+  },
+  "984": {
+    "id": 984,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 67,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 969
+    }
+  },
+  "890": {
+    "id": 890,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 883,
+      "w": 926
+    }
+  },
+  "926": {
+    "id": 926,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 890
+    }
+  },
+  "823": {
+    "id": 823,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 775,
+      "e": 824
+    }
+  },
+  "824": {
+    "id": 824,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 827,
+      "w": 823
+    }
+  },
+  "827": {
+    "id": 827,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 824,
+      "s": 832,
+      "e": 904,
+      "w": 985
+    }
+  },
+  "904": {
+    "id": 904,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 976,
+      "w": 827
+    }
+  },
+  "976": {
+    "id": 976,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 904
+    }
+  },
+  "832": {
+    "id": 832,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 827,
+      "s": 932,
+      "e": 844,
+      "w": 888
+    }
+  },
+  "844": {
+    "id": 844,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 832
+    }
+  },
+  "932": {
+    "id": 932,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 63,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 832,
+      "e": 950
+    }
+  },
+  "950": {
+    "id": 950,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 64,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 932
+    }
+  },
+  "888": {
+    "id": 888,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 832,
+      "w": 936
+    }
+  },
+  "936": {
+    "id": 936,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 988,
+      "e": 888
+    }
+  },
+  "988": {
+    "id": 988,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 936
+    }
+  },
+  "985": {
+    "id": 985,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 62,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 827
+    }
+  },
+  "784": {
+    "id": 784,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 753
+    }
+  },
+  "757": {
+    "id": 757,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 695,
+      "s": 814
+    }
+  },
+  "814": {
+    "id": 814,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 757,
+      "s": 849
+    }
+  },
+  "849": {
+    "id": 849,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 814,
+      "e": 955
+    }
+  },
+  "955": {
+    "id": 955,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 849
+    }
+  },
+  "509": {
+    "id": 509,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 524,
+      "e": 502,
+      "w": 510
+    }
+  },
+  "524": {
+    "id": 524,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 509,
+      "s": 545,
+      "w": 526
+    }
+  },
+  "545": {
+    "id": 545,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 524,
+      "s": 565
+    }
+  },
+  "565": {
+    "id": 565,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 545,
+      "s": 590
+    }
+  },
+  "590": {
+    "id": 590,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 565,
+      "s": 625
+    }
+  },
+  "625": {
+    "id": 625,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 590,
+      "s": 699
+    }
+  },
+  "699": {
+    "id": 699,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 625,
+      "s": 809
+    }
+  },
+  "809": {
+    "id": 809,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 699
+    }
+  },
+  "526": {
+    "id": 526,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 538,
+      "e": 524,
+      "w": 530
+    }
+  },
+  "538": {
+    "id": 538,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 526,
+      "s": 564
+    }
+  },
+  "564": {
+    "id": 564,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 538,
+      "s": 586
+    }
+  },
+  "586": {
+    "id": 586,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 564,
+      "s": 619,
+      "w": 599
+    }
+  },
+  "619": {
+    "id": 619,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 586,
+      "s": 670
+    }
+  },
+  "670": {
+    "id": 670,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 619,
+      "s": 707
+    }
+  },
+  "707": {
+    "id": 707,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 670,
+      "s": 719
+    }
+  },
+  "719": {
+    "id": 719,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 707,
+      "s": 749,
+      "e": 800
+    }
+  },
+  "800": {
+    "id": 800,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 719
+    }
+  },
+  "749": {
+    "id": 749,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 719,
+      "s": 859,
+      "e": 822
+    }
+  },
+  "822": {
+    "id": 822,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 872,
+      "w": 749
+    }
+  },
+  "872": {
+    "id": 872,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 822,
+      "s": 906,
+      "e": 968
+    }
+  },
+  "968": {
+    "id": 968,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 872
+    }
+  },
+  "906": {
+    "id": 906,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 872
+    }
+  },
+  "859": {
+    "id": 859,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 749,
+      "s": 938
+    }
+  },
+  "938": {
+    "id": 938,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 859,
+      "s": 975
+    }
+  },
+  "975": {
+    "id": 975,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 47,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 938,
+      "s": 983
+    }
+  },
+  "983": {
+    "id": 983,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 46,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 975
+    }
+  },
+  "599": {
+    "id": 599,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 632,
+      "e": 586
+    }
+  },
+  "632": {
+    "id": 632,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 599,
+      "s": 654
+    }
+  },
+  "654": {
+    "id": 654,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 632,
+      "s": 677
+    }
+  },
+  "677": {
+    "id": 677,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 654,
+      "s": 691
+    }
+  },
+  "691": {
+    "id": 691,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 677,
+      "s": 716,
+      "w": 704
+    }
+  },
+  "716": {
+    "id": 716,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 691,
+      "s": 836,
+      "w": 761
+    }
+  },
+  "836": {
+    "id": 836,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 716,
+      "s": 860
+    }
+  },
+  "860": {
+    "id": 860,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 836,
+      "s": 941
+    }
+  },
+  "941": {
+    "id": 941,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 47,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 860,
+      "s": 947
+    }
+  },
+  "947": {
+    "id": 947,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 46,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 941
+    }
+  },
+  "761": {
+    "id": 761,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 863,
+      "e": 716,
+      "w": 837
+    }
+  },
+  "863": {
+    "id": 863,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 761,
+      "s": 913,
+      "w": 873
+    }
+  },
+  "913": {
+    "id": 913,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 863,
+      "s": 922
+    }
+  },
+  "922": {
+    "id": 922,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 47,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 913,
+      "s": 964,
+      "w": 959
+    }
+  },
+  "964": {
+    "id": 964,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 46,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 922
+    }
+  },
+  "959": {
+    "id": 959,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 47,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 922
+    }
+  },
+  "873": {
+    "id": 873,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 914,
+      "e": 863,
+      "w": 899
+    }
+  },
+  "914": {
+    "id": 914,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 48,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 873
+    }
+  },
+  "899": {
+    "id": 899,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 49,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 873
+    }
+  },
+  "837": {
+    "id": 837,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 761,
+      "w": 948
+    }
+  },
+  "948": {
+    "id": 948,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 837,
+      "w": 998
+    }
+  },
+  "998": {
+    "id": 998,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 50,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 948
+    }
+  },
+  "704": {
+    "id": 704,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 691,
+      "w": 774
+    }
+  },
+  "774": {
+    "id": 774,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 704,
+      "w": 842
+    }
+  },
+  "842": {
+    "id": 842,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 774
+    }
+  },
+  "530": {
+    "id": 530,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 577,
+      "e": 526,
+      "w": 559
+    }
+  },
+  "577": {
+    "id": 577,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 530,
+      "s": 589
+    }
+  },
+  "589": {
+    "id": 589,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 577
+    }
+  },
+  "559": {
+    "id": 559,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 572,
+      "e": 530,
+      "w": 569
+    }
+  },
+  "572": {
+    "id": 572,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 559,
+      "s": 621,
+      "w": 607
+    }
+  },
+  "621": {
+    "id": 621,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 572,
+      "s": 634
+    }
+  },
+  "634": {
+    "id": 634,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 621,
+      "s": 639,
+      "w": 636
+    }
+  },
+  "639": {
+    "id": 639,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 634,
+      "s": 653,
+      "w": 702
+    }
+  },
+  "653": {
+    "id": 653,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 639,
+      "s": 661,
+      "w": 690
+    }
+  },
+  "661": {
+    "id": 661,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 653,
+      "w": 788
+    }
+  },
+  "788": {
+    "id": 788,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 661,
+      "w": 867
+    }
+  },
+  "867": {
+    "id": 867,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 788,
+      "w": 881
+    }
+  },
+  "881": {
+    "id": 881,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 898,
+      "e": 867,
+      "w": 884
+    }
+  },
+  "898": {
+    "id": 898,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 51,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 881
+    }
+  },
+  "884": {
+    "id": 884,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 52,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 881
+    }
+  },
+  "690": {
+    "id": 690,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 653,
+      "w": 817
+    }
+  },
+  "817": {
+    "id": 817,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 690
+    }
+  },
+  "702": {
+    "id": 702,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 639,
+      "w": 715
+    }
+  },
+  "715": {
+    "id": 715,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 702,
+      "w": 791
+    }
+  },
+  "791": {
+    "id": 791,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 855,
+      "e": 715,
+      "w": 852
+    }
+  },
+  "855": {
+    "id": 855,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 791
+    }
+  },
+  "852": {
+    "id": 852,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 903,
+      "e": 791,
+      "w": 978
+    }
+  },
+  "903": {
+    "id": 903,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 852,
+      "w": 951
+    }
+  },
+  "951": {
+    "id": 951,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 53,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 903
+    }
+  },
+  "978": {
+    "id": 978,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 54,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 852
+    }
+  },
+  "636": {
+    "id": 636,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 634
+    }
+  },
+  "607": {
+    "id": 607,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 640,
+      "e": 572,
+      "w": 630
+    }
+  },
+  "640": {
+    "id": 640,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 607,
+      "w": 693
+    }
+  },
+  "693": {
+    "id": 693,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 694,
+      "e": 640,
+      "w": 765
+    }
+  },
+  "694": {
+    "id": 694,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 693
+    }
+  },
+  "765": {
+    "id": 765,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 870,
+      "e": 693
+    }
+  },
+  "870": {
+    "id": 870,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 765,
+      "w": 882
+    }
+  },
+  "882": {
+    "id": 882,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 870
+    }
+  },
+  "630": {
+    "id": 630,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 607,
+      "w": 755
+    }
+  },
+  "755": {
+    "id": 755,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 630,
+      "w": 766
+    }
+  },
+  "766": {
+    "id": 766,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 931,
+      "e": 755,
+      "w": 857
+    }
+  },
+  "931": {
+    "id": 931,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 766
+    }
+  },
+  "857": {
+    "id": 857,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 875,
+      "e": 766,
+      "w": 918
+    }
+  },
+  "875": {
+    "id": 875,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 56,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 857,
+      "s": 989
+    }
+  },
+  "989": {
+    "id": 989,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 55,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 875
+    }
+  },
+  "918": {
+    "id": 918,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 933,
+      "e": 857,
+      "w": 994
+    }
+  },
+  "933": {
+    "id": 933,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 918
+    }
+  },
+  "994": {
+    "id": 994,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 57,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 918
+    }
+  },
+  "569": {
+    "id": 569,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 559,
+      "w": 615
+    }
+  },
+  "615": {
+    "id": 615,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 569
+    }
+  },
+  "510": {
+    "id": 510,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 517,
+      "e": 509,
+      "w": 513
+    }
+  },
+  "517": {
+    "id": 517,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 510
+    }
+  },
+  "513": {
+    "id": 513,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 550,
+      "e": 510,
+      "w": 532
+    }
+  },
+  "550": {
+    "id": 550,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 570,
+      "s": 513
+    }
+  },
+  "570": {
+    "id": 570,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 550
+    }
+  },
+  "532": {
+    "id": 532,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 553,
+      "e": 513,
+      "w": 568
+    }
+  },
+  "553": {
+    "id": 553,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 593,
+      "s": 532
+    }
+  },
+  "593": {
+    "id": 593,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 553
+    }
+  },
+  "568": {
+    "id": 568,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 573,
+      "e": 532,
+      "w": 580
+    }
+  },
+  "573": {
+    "id": 573,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 568
+    }
+  },
+  "580": {
+    "id": 580,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 568,
+      "w": 606
+    }
+  },
+  "606": {
+    "id": 606,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 608,
+      "e": 580,
+      "w": 722
+    }
+  },
+  "608": {
+    "id": 608,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 606,
+      "w": 752
+    }
+  },
+  "752": {
+    "id": 752,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 608
+    }
+  },
+  "722": {
+    "id": 722,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 606,
+      "w": 763
+    }
+  },
+  "763": {
+    "id": 763,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 826,
+      "e": 722,
+      "w": 846
+    }
+  },
+  "826": {
+    "id": 826,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 58,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 763
+    }
+  },
+  "846": {
+    "id": 846,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 763
+    }
+  },
+  "501": {
+    "id": 501,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 500
+    }
+  },
+  "523": {
+    "id": 523,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 504
+    }
+  },
+  "529": {
+    "id": 529,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 506
+    }
+  },
+  "511": {
+    "id": 511,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 512,
+      "e": 507,
+      "w": 516
+    }
+  },
+  "512": {
+    "id": 512,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 534,
+      "s": 511,
+      "w": 541
+    }
+  },
+  "534": {
+    "id": 534,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 551,
+      "s": 512
+    }
+  },
+  "551": {
+    "id": 551,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 591,
+      "s": 534,
+      "w": 558
+    }
+  },
+  "591": {
+    "id": 591,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 627,
+      "s": 551
+    }
+  },
+  "627": {
+    "id": 627,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 643,
+      "s": 591
+    }
+  },
+  "643": {
+    "id": 643,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 676,
+      "s": 627,
+      "w": 668
+    }
+  },
+  "676": {
+    "id": 676,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 726,
+      "s": 643,
+      "e": 686
+    }
+  },
+  "726": {
+    "id": 726,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 773,
+      "s": 676,
+      "e": 746
+    }
+  },
+  "773": {
+    "id": 773,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 789,
+      "s": 726
+    }
+  },
+  "789": {
+    "id": 789,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 773,
+      "e": 795
+    }
+  },
+  "795": {
+    "id": 795,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 804,
+      "w": 789
+    }
+  },
+  "804": {
+    "id": 804,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 971,
+      "s": 795,
+      "e": 970,
+      "w": 811
+    }
+  },
+  "971": {
+    "id": 971,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 75,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 804
+    }
+  },
+  "970": {
+    "id": 970,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 804
+    }
+  },
+  "811": {
+    "id": 811,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 59,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 804,
+      "w": 934
+    }
+  },
+  "934": {
+    "id": 934,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 945,
+      "e": 811
+    }
+  },
+  "945": {
+    "id": 945,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 75,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 967,
+      "s": 934
+    }
+  },
+  "967": {
+    "id": 967,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 76,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 945
+    }
+  },
+  "746": {
+    "id": 746,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 771,
+      "w": 726
+    }
+  },
+  "771": {
+    "id": 771,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 746,
+      "e": 801
+    }
+  },
+  "801": {
+    "id": 801,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 61,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 771
+    }
+  },
+  "686": {
+    "id": 686,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 60,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 676
+    }
+  },
+  "668": {
+    "id": 668,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 706,
+      "s": 738,
+      "e": 643,
+      "w": 688
+    }
+  },
+  "706": {
+    "id": 706,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 743,
+      "s": 668
+    }
+  },
+  "743": {
+    "id": 743,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 760,
+      "s": 706,
+      "w": 750
+    }
+  },
+  "760": {
+    "id": 760,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 743
+    }
+  },
+  "750": {
+    "id": 750,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 776,
+      "e": 743,
+      "w": 840
+    }
+  },
+  "776": {
+    "id": 776,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 777,
+      "s": 750,
+      "w": 805
+    }
+  },
+  "777": {
+    "id": 777,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 776,
+      "e": 785,
+      "w": 894
+    }
+  },
+  "785": {
+    "id": 785,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 777
+    }
+  },
+  "894": {
+    "id": 894,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 935,
+      "e": 777
+    }
+  },
+  "935": {
+    "id": 935,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 957,
+      "s": 894
+    }
+  },
+  "957": {
+    "id": 957,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 75,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 935
+    }
+  },
+  "805": {
+    "id": 805,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 776,
+      "w": 838
+    }
+  },
+  "838": {
+    "id": 838,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 851,
+      "e": 805,
+      "w": 845
+    }
+  },
+  "851": {
+    "id": 851,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 940,
+      "s": 838
+    }
+  },
+  "940": {
+    "id": 940,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 74,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 851
+    }
+  },
+  "845": {
+    "id": 845,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 895,
+      "e": 838
+    }
+  },
+  "895": {
+    "id": 895,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 845,
+      "w": 916
+    }
+  },
+  "916": {
+    "id": 916,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 993,
+      "e": 895,
+      "w": 987
+    }
+  },
+  "993": {
+    "id": 993,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 72,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 916
+    }
+  },
+  "987": {
+    "id": 987,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 73,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 916
+    }
+  },
+  "840": {
+    "id": 840,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 750,
+      "w": 887
+    }
+  },
+  "887": {
+    "id": 887,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 840,
+      "w": 949
+    }
+  },
+  "949": {
+    "id": 949,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 71,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 887
+    }
+  },
+  "738": {
+    "id": 738,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 668
+    }
+  },
+  "688": {
+    "id": 688,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 745,
+      "e": 668,
+      "w": 730
+    }
+  },
+  "745": {
+    "id": 745,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 688,
+      "w": 792
+    }
+  },
+  "792": {
+    "id": 792,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 745
+    }
+  },
+  "730": {
+    "id": 730,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 688
+    }
+  },
+  "558": {
+    "id": 558,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 551,
+      "w": 587
+    }
+  },
+  "587": {
+    "id": 587,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 594,
+      "e": 558,
+      "w": 592
+    }
+  },
+  "594": {
+    "id": 594,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 649,
+      "s": 587,
+      "e": 622,
+      "w": 641
+    }
+  },
+  "649": {
+    "id": 649,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 594
+    }
+  },
+  "622": {
+    "id": 622,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 594
+    }
+  },
+  "641": {
+    "id": 641,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 663,
+      "e": 594,
+      "w": 683
+    }
+  },
+  "663": {
+    "id": 663,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 641
+    }
+  },
+  "683": {
+    "id": 683,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 713,
+      "e": 641
+    }
+  },
+  "713": {
+    "id": 713,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 747,
+      "s": 683
+    }
+  },
+  "747": {
+    "id": 747,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 839,
+      "s": 713,
+      "w": 828
+    }
+  },
+  "839": {
+    "id": 839,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 747,
+      "w": 911
+    }
+  },
+  "911": {
+    "id": 911,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 839,
+      "w": 921
+    }
+  },
+  "921": {
+    "id": 921,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 911,
+      "w": 990
+    }
+  },
+  "990": {
+    "id": 990,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 921,
+      "w": 991
+    }
+  },
+  "991": {
+    "id": 991,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 70,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 990
+    }
+  },
+  "828": {
+    "id": 828,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 747
+    }
+  },
+  "592": {
+    "id": 592,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 587,
+      "w": 697
+    }
+  },
+  "697": {
+    "id": 697,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 592
+    }
+  },
+  "541": {
+    "id": 541,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 543,
+      "e": 512,
+      "w": 546
+    }
+  },
+  "543": {
+    "id": 543,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 541
+    }
+  },
+  "546": {
+    "id": 546,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 557,
+      "e": 541,
+      "w": 548
+    }
+  },
+  "557": {
+    "id": 557,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 546
+    }
+  },
+  "548": {
+    "id": 548,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 655,
+      "e": 546,
+      "w": 605
+    }
+  },
+  "655": {
+    "id": 655,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 548
+    }
+  },
+  "605": {
+    "id": 605,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 679,
+      "e": 548,
+      "w": 611
+    }
+  },
+  "679": {
+    "id": 679,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 605
+    }
+  },
+  "611": {
+    "id": 611,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 656,
+      "e": 605,
+      "w": 624
+    }
+  },
+  "656": {
+    "id": 656,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 727,
+      "s": 611
+    }
+  },
+  "727": {
+    "id": 727,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 759,
+      "s": 656
+    }
+  },
+  "759": {
+    "id": 759,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 880,
+      "s": 727
+    }
+  },
+  "880": {
+    "id": 880,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 759,
+      "w": 886
+    }
+  },
+  "886": {
+    "id": 886,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 880
+    }
+  },
+  "624": {
+    "id": 624,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 689,
+      "e": 611
+    }
+  },
+  "689": {
+    "id": 689,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 624
+    }
+  },
+  "516": {
+    "id": 516,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 528,
+      "e": 511,
+      "w": 527
+    }
+  },
+  "528": {
+    "id": 528,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 58,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 516,
+      "s": 555,
+      "w": 535
+    }
+  },
+  "555": {
+    "id": 555,
+    "title": "Wishing Well",
+    "description": "You are standing besides a large well. A sign next the well reads 'EXAMINE WELL, FIND WEALTH'.",
+    "x_coord": 58,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 528
+    }
+  },
+  "535": {
+    "id": 535,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 528,
+      "w": 562
+    }
+  },
+  "562": {
+    "id": 562,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 535,
+      "w": 566
+    }
+  },
+  "566": {
+    "id": 566,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 596,
+      "e": 562,
+      "w": 581
+    }
+  },
+  "596": {
+    "id": 596,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 566,
+      "w": 597
+    }
+  },
+  "597": {
+    "id": 597,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 626,
+      "e": 596,
+      "w": 657
+    }
+  },
+  "626": {
+    "id": 626,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 597
+    }
+  },
+  "657": {
+    "id": 657,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 705,
+      "e": 597
+    }
+  },
+  "705": {
+    "id": 705,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 657,
+      "w": 708
+    }
+  },
+  "708": {
+    "id": 708,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 705
+    }
+  },
+  "581": {
+    "id": 581,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 566,
+      "w": 614
+    }
+  },
+  "614": {
+    "id": 614,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 581
+    }
+  },
+  "527": {
+    "id": 527,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 57,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 516,
+      "w": 537
+    }
+  },
+  "537": {
+    "id": 537,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 56,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 527,
+      "w": 547
+    }
+  },
+  "547": {
+    "id": 547,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 55,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 537,
+      "w": 575
+    }
+  },
+  "575": {
+    "id": 575,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 54,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 547,
+      "w": 613
+    }
+  },
+  "613": {
+    "id": 613,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 575,
+      "w": 616
+    }
+  },
+  "616": {
+    "id": 616,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 638,
+      "s": 620,
+      "e": 613,
+      "w": 628
+    }
+  },
+  "638": {
+    "id": 638,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 647,
+      "s": 616
+    }
+  },
+  "647": {
+    "id": 647,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 666,
+      "s": 638,
+      "w": 701
+    }
+  },
+  "666": {
+    "id": 666,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 833,
+      "s": 647,
+      "e": 729,
+      "w": 803
+    }
+  },
+  "833": {
+    "id": 833,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 900,
+      "s": 666
+    }
+  },
+  "900": {
+    "id": 900,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 928,
+      "s": 833
+    }
+  },
+  "928": {
+    "id": 928,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 900
+    }
+  },
+  "729": {
+    "id": 729,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 731,
+      "w": 666
+    }
+  },
+  "731": {
+    "id": 731,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 53,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 729
+    }
+  },
+  "803": {
+    "id": 803,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 834,
+      "e": 666
+    }
+  },
+  "834": {
+    "id": 834,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 905,
+      "s": 803
+    }
+  },
+  "905": {
+    "id": 905,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 68,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 977,
+      "s": 834
+    }
+  },
+  "977": {
+    "id": 977,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 69,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 905
+    }
+  },
+  "701": {
+    "id": 701,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 647
+    }
+  },
+  "620": {
+    "id": 620,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 616,
+      "s": 660,
+      "w": 692
+    }
+  },
+  "660": {
+    "id": 660,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 52,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 620
+    }
+  },
+  "692": {
+    "id": 692,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 698,
+      "e": 620,
+      "w": 710
+    }
+  },
+  "698": {
+    "id": 698,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 692,
+      "s": 714,
+      "w": 742
+    }
+  },
+  "714": {
+    "id": 714,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 698,
+      "w": 783
+    }
+  },
+  "783": {
+    "id": 783,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 714,
+      "w": 871
+    }
+  },
+  "871": {
+    "id": 871,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 942,
+      "e": 783
+    }
+  },
+  "942": {
+    "id": 942,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 871
+    }
+  },
+  "742": {
+    "id": 742,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 698,
+      "w": 843
+    }
+  },
+  "843": {
+    "id": 843,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 742
+    }
+  },
+  "710": {
+    "id": 710,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 692
+    }
+  },
+  "628": {
+    "id": 628,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 671,
+      "e": 616,
+      "w": 681
+    }
+  },
+  "671": {
+    "id": 671,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 51,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 628,
+      "w": 781
+    }
+  },
+  "781": {
+    "id": 781,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 787,
+      "e": 671
+    }
+  },
+  "787": {
+    "id": 787,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 861,
+      "s": 781
+    }
+  },
+  "861": {
+    "id": 861,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 930,
+      "s": 787,
+      "w": 862
+    }
+  },
+  "930": {
+    "id": 930,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 861
+    }
+  },
+  "862": {
+    "id": 862,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 878,
+      "e": 861
+    }
+  },
+  "878": {
+    "id": 878,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 67,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 862
+    }
+  },
+  "681": {
+    "id": 681,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 50,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 628,
+      "w": 685
+    }
+  },
+  "685": {
+    "id": 685,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 767,
+      "s": 744,
+      "e": 681,
+      "w": 725
+    }
+  },
+  "767": {
+    "id": 767,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 796,
+      "s": 685,
+      "w": 819
+    }
+  },
+  "796": {
+    "id": 796,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 767,
+      "w": 850
+    }
+  },
+  "850": {
+    "id": 850,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 954,
+      "e": 796,
+      "w": 973
+    }
+  },
+  "954": {
+    "id": 954,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 850
+    }
+  },
+  "973": {
+    "id": 973,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 65,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 981,
+      "e": 850
+    }
+  },
+  "981": {
+    "id": 981,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 66,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 973
+    }
+  },
+  "819": {
+    "id": 819,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 767,
+      "w": 893
+    }
+  },
+  "893": {
+    "id": 893,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 819,
+      "w": 944
+    }
+  },
+  "944": {
+    "id": 944,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 46,
+    "y_coord": 64,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 893
+    }
+  },
+  "744": {
+    "id": 744,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 49,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 685,
+      "w": 797
+    }
+  },
+  "797": {
+    "id": 797,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 812,
+      "e": 744,
+      "w": 807
+    }
+  },
+  "812": {
+    "id": 812,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 797,
+      "s": 892
+    }
+  },
+  "892": {
+    "id": 892,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 812,
+      "s": 943
+    }
+  },
+  "943": {
+    "id": 943,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 892,
+      "w": 952
+    }
+  },
+  "952": {
+    "id": 952,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 59,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 943
+    }
+  },
+  "807": {
+    "id": 807,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 856,
+      "s": 864,
+      "e": 797,
+      "w": 869
+    }
+  },
+  "856": {
+    "id": 856,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "s": 807
+    }
+  },
+  "864": {
+    "id": 864,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 61,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 807,
+      "s": 927
+    }
+  },
+  "927": {
+    "id": 927,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 47,
+    "y_coord": 60,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "n": 864
+    }
+  },
+  "869": {
+    "id": 869,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 46,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 807
+    }
+  },
+  "725": {
+    "id": 725,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 48,
+    "y_coord": 63,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "e": 685
+    }
+  },
+  "652": {
+    "id": 652,
+    "title": "Darkness",
+    "description": "You are standing on grass and surrounded by darkness.",
+    "x_coord": 65,
+    "y_coord": 62,
+    "elevation": 0,
+    "terrain": "NORMAL",
+    "exits": {
+      "w": 609
+    }
   }
 }
