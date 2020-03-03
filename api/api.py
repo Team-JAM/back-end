@@ -138,20 +138,20 @@ def get_pathing(path):
 @api_view(['POST'])
 def well(request):
     data = json.loads(request.body)
-    token = str(data['token'])
+    token = data['token']
     headers = {"Authorization": f"Token {token}"}
 
     # examine well
-    # r = requests.post(base_url + 'adv/examine/', headers=headers, json={'token': token})
-    r = requests.post('https://lambda-treasure-hunt.herokuapp.com/api/adv/examine/', headers=headers, json={'token': token})
+    payload = {"name": "well"}
+    r = requests.post(base_url + 'adv/examine/', headers=headers, json=payload)
 
-    # description = r.json()['description']
+    description = r.json()['description']
 
-    # _, message = description.split('\n\n')
+    _, message = description.split('\n\n')
 
-    # with open('util/wishing_well.ls8', 'w') as f:
-    #     f.write(message)
+    with open('util/wishing_well.ls8', 'w') as f:
+        f.write(message)
 
-    return JsonResponse({'status': r.status_code }, safe=True)
+    return JsonResponse({'message': message }, safe=True)
 
     # decode message
