@@ -23,7 +23,7 @@ pusher_client = pusher.Pusher(
 @csrf_exempt
 @api_view(['GET'])
 def map(request):
-    rooms = Room.objects.all()
+    rooms = Room.objects.filter(id__range=(0, 499))
     x_max = 30
     y_max = 30
     offset = 45
