@@ -4,7 +4,21 @@ from django.http import JsonResponse
 from .models import *
 from rest_framework.decorators import api_view
 from util.queue import Queue
+from decouple import config
 import json
+
+import pusher
+
+pusher_client = pusher.Pusher(
+  app_id=config('PUSHER_APP_ID'),
+  key=config('PUSHER_KEY'),
+  secret=config('PUSHER_SECRET'),
+  cluster=config('PUSHER_CLUSTER'),
+  ssl=True
+)
+
+# example pusher trigger - channel - event - JSON data
+# pusher_client.trigger(f'channel-{token}', 'move', {'room_id': room_id})
 
 @csrf_exempt
 @api_view(['GET'])
