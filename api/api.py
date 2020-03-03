@@ -49,8 +49,10 @@ def get_directions(request):
     # Create an empty queue
     queue = Queue()
     # Add a path for starting_room_id to the queue
+    # Add a second option that recalls to room zero first
     # paths will contain tuple of (direction, room_id)
     queue.enqueue([(None, starting_room)])
+    queue.enqueue([(None, starting_room), (None, 0)])
     # Create an empty set to store visited rooms
     visited = set()
     while queue.size() > 0:
@@ -60,7 +62,8 @@ def get_directions(request):
         room = path[-1][1]
         # If room is the desination, return the path
         if room == destination_room:
-            return JsonResponse({'path': path[1:]}, safe=True)
+            path_directions = get_pathing(path)
+            return JsonResponse({'path': path_directions}, safe=True)
         # If it has not been visited...
         if room not in visited:
             # Mark it as visited
@@ -82,3 +85,47 @@ def get_directions(request):
             for next_room in adjacent_rooms:
                 queue.enqueue(path + [next_room])
     return JsonResponse({'error': list(visited)}, safe=True)
+
+def get_pathing(path):
+    path_directions = []
+    next_position = 1
+
+    # check if room zero is first step and starting room not adjacent to room 0
+    if path[1][1] == 0 and path[0][1] not in {1, 2, 4, 10}:
+        # if so, start with recall
+        path_directions.append(('recall'))
+        next_position += 1
+
+    while next_position < len(path):
+
+        # check if there are enough steps for a dash
+        direction = path[next_position][0]
+        hops = 0
+        for i in range(next_position , len(path)):
+            if path[i][0] == direction:
+                hops += 1
+            else:
+                break
+        if hops > 2:
+            next_room_ids = [str(path[i][1]) for i in range(next_position, next_position + hops)]
+            dash = ('dash', str(hops), ','.join(next_room_ids))
+            path_directions.append(dash)
+            next_position += hops
+            continue
+
+        # check if flying is called for (next room is not a cave)
+        try:
+            next_room = Room.objects.get(id=path[next_position][1])
+        except Room.DoesNotExist:
+            return JsonResponse({'error': f"Room {next_room} does not exist", 'path': path}, safe=True)
+        # if no, move; if so, fly
+        path[next_position] = list(path[next_position])
+        path[next_position][1] = str(path[next_position][1])
+        if next_room.terrain == 'CAVE':
+            path_directions.append(['move'] + path[next_position])
+        else:
+            path_directions.append(['fly'] + path[next_position])
+        next_position += 1
+        
+    
+    return path_directions
