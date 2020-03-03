@@ -14,9 +14,12 @@ def map(request):
     y_max = 30
     offset = 45
     grid = [[None]*x_max for i in range(y_max)]
+    rooms_json = {}
     for room in rooms:
         grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
-    return JsonResponse({'map': grid}, safe=True)
+        rooms_json[room.id] = room.to_json(offset)
+    
+    return JsonResponse({'map': grid, 'rooms': rooms_json}, safe=True)
 
 @csrf_exempt
 @api_view(['POST'])
