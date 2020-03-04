@@ -162,4 +162,4 @@ def well(request):
     # decode message
     message = decode()
 
-    return JsonResponse({'message': message }, safe=True)
+    return JsonResponse({'message': message, 'room': r.json() }, safe=True)
