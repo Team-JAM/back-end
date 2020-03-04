@@ -31,11 +31,13 @@ def map(request):
     dark_grid = [[None]*x_max for i in range(y_max)]
     rooms_json = {}
     for i in range(500):
-        grid[rooms[i].y_coord - offset][rooms[i].x_coord - offset] = rooms[i].to_json(offset)
-        rooms_json[i] = rooms[i].to_json(offset)
+        room = rooms[i]
+        grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
+        rooms_json[room.id] = room.to_json(offset)
     for i in range(500, 1000):
-        dark_grid[rooms[i].y_coord - offset][rooms[i].x_coord - offset] = rooms[i].to_json(offset)
-        rooms_json[i] = rooms[i].to_json(offset)
+        room = rooms[i]
+        dark_grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
+        rooms_json[room.id] = room.to_json(offset)
     
     return JsonResponse({'map': grid, 'dark_map': dark_grid, 'rooms': rooms_json}, safe=True)
 
