@@ -101,6 +101,9 @@ class CPU:
             XOR:  self.xor,
             }
 
+        self.isRunning = True
+        self.message = []
+
     # Utility methods
 
     def ram_read(self, MAR):
@@ -175,7 +178,8 @@ class CPU:
         self.alu('DEC', self.operand_a)
 
     def hlt(self):
-        sys.exit(0)
+        # sys.exit(0)
+        self.isRunning = False
 
     def inc(self):
         self.alu('INC', self.operand_a)
@@ -241,6 +245,7 @@ class CPU:
 
     def pra(self):
         print(chr(self.reg[self.operand_a]), end='')
+        self.message += chr(self.reg[self.operand_a])
 
     def prn(self):
         print(self.reg[self.operand_a])
@@ -367,7 +372,7 @@ class CPU:
         # interrupt_time = time.time() + 60
         # set to True to run interrupts.ls8
         # timer = False
-        while True:
+        while self.isRunning:
             # if timer:
             #     if time.time() > interrupt_time:
             #         # Set bit 0 of the IS register (R6)
@@ -379,3 +384,4 @@ class CPU:
             self.set_operands()
             self.invoke_instruction()
             self.move_pc()
+        return ''.join(self.message)

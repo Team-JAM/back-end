@@ -3,15 +3,16 @@
 """Main."""
 
 import sys
-from cpu import *
+from .cpu import *
 
 # if len(sys.argv) != 2:
 #     print('Usage: ls8.py path/file_to_load')
 #     sys.exit(1)
 # program = sys.argv[1]
-program = 'wishing_well.ls8'
+program = 'util/wishing_well.ls8'
 
-cpu = CPU()
+def decode():
+    cpu = CPU()
 
-cpu.load(program)
-cpu.run()
+    cpu.load(program)
+    return cpu.run()

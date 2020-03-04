@@ -5,6 +5,7 @@ from .models import *
 from rest_framework.decorators import api_view
 from util.queue import Queue
 from decouple import config
+from util.ls8 import decode
 import json
 import requests
 
@@ -152,6 +153,8 @@ def well(request):
     with open('util/wishing_well.ls8', 'w') as f:
         f.write(message)
 
-    return JsonResponse({'message': message }, safe=True)
 
     # decode message
+    message = decode()
+
+    return JsonResponse({'message': message }, safe=True)
