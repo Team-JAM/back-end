@@ -146,18 +146,15 @@ def get_pathing(path):
     return path_directions
 
 def travel(path_directions, token):
-    # initiate travel mode
-    r = requests.get(base_url + "init/", headers=headers)
-    current_room_id = r.json()['room_id']
-    # set cooldown
-    time_for_next_action = time.time() + r.json()['cooldown']
+    # # initiate travel mode
+    headers = {"Authorization": f"Token {token}"}
+    # r = requests.get(base_url + "init/", headers=headers)
+    # current_room_id = r.json()['room_id']
+    # # set cooldown
+    # time_for_next_action = time.time() + r.json()['cooldown']
+    time_for_next_action = time.time()
 
-    payload = {"starting_room": str(current_room_id), "destination_room": str(destination)}
-    print(payload)
-    r = requests.post(directions_url, json=payload)
-    print(r.json())
-    path = r.json()['path']
-    for instructions in path:
+    for instructions in path_directions:
         travel_mode = instructions[0]
         if travel_mode == 'fly' or travel_mode == 'move':
             payload = {'direction': instructions[1], 'next_room_id': instructions[2]}
@@ -169,16 +166,10 @@ def travel(path_directions, token):
         # sleep for cooldown
         time.sleep(max(time_for_next_action - time.time(), 0))
         # move
-        print(f'{base_url}{travel_mode}/', headers, payload)
         r = requests.post(f'{base_url}{travel_mode}/', headers=headers, json=payload)
         # set cooldown
         time_for_next_action = time.time() + r.json()['cooldown']
-        print(f"{travel_mode} to room {r.json()['room_id']}")
-        print(f"message: {r.json()['messages']}")
-        print(f"items: {r.json()['items']}")
-        print(f"errors: {r.json()['errors']}")
-        print('-----')
-        
+
 @csrf_exempt
 @api_view(['POST'])
 def well(request):
