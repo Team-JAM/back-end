@@ -27,17 +27,23 @@ base_url = 'https://lambda-treasure-hunt.herokuapp.com/api/'
 @csrf_exempt
 @api_view(['GET'])
 def map(request):
-    rooms = Room.objects.all()
-    x_max = 30
-    y_max = 30
+    rooms = Room.objects.all().order_by('id')
+    x_max = 32
+    y_max = 32
     offset = 45
     grid = [[None]*x_max for i in range(y_max)]
+    dark_grid = [[None]*x_max for i in range(y_max)]
     rooms_json = {}
-    for room in rooms:
+    for i in range(500):
+        room = rooms[i]
         grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
         rooms_json[room.id] = room.to_json(offset)
+    for i in range(500, 1000):
+        room = rooms[i]
+        dark_grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
+        rooms_json[room.id] = room.to_json(offset)
     
-    return JsonResponse({'map': grid, 'rooms': rooms_json}, safe=True)
+    return JsonResponse({'map': grid, 'dark_map': dark_grid, 'rooms': rooms_json}, safe=True)
 
 @csrf_exempt
 @api_view(['POST'])
@@ -98,7 +104,7 @@ def get_pathing(path):
     # check if room zero is first step and starting room not adjacent to room 0
     if path[1][1] == 0 and path[0][1] not in {1, 2, 4, 10}:
         # if so, start with recall
-        path_directions.append(('recall'))
+        path_directions.append(['recall'])
         next_position += 1
 
     while next_position < len(path):
@@ -152,7 +158,6 @@ def well(request):
 
     with open('util/wishing_well.ls8', 'w') as f:
         f.write(message)
-
 
     # decode message
     message = decode()
