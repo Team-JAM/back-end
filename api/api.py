@@ -23,17 +23,21 @@ pusher_client = pusher.Pusher(
 @csrf_exempt
 @api_view(['GET'])
 def map(request):
-    rooms = Room.objects.filter(id__range=(0, 499))
-    x_max = 30
-    y_max = 30
+    rooms = Room.objects.all()
+    x_max = 32
+    y_max = 32
     offset = 45
     grid = [[None]*x_max for i in range(y_max)]
+    dark_grid = [[None]*x_max for i in range(y_max)]
     rooms_json = {}
-    for room in rooms:
-        grid[room.y_coord - offset][room.x_coord - offset] = room.to_json(offset)
-        rooms_json[room.id] = room.to_json(offset)
+    for i in range(500):
+        grid[rooms[i].y_coord - offset][rooms[i].x_coord - offset] = rooms[i].to_json(offset)
+        rooms_json[i] = rooms[i].to_json(offset)
+    for i in range(500, 1000):
+        dark_grid[rooms[i].y_coord - offset][rooms[i].x_coord - offset] = rooms[i].to_json(offset)
+        rooms_json[i] = rooms[i].to_json(offset)
     
-    return JsonResponse({'map': grid, 'rooms': rooms_json}, safe=True)
+    return JsonResponse({'map': grid, 'dark_map': dark_grid, 'rooms': rooms_json}, safe=True)
 
 @csrf_exempt
 @api_view(['POST'])
