@@ -57,7 +57,7 @@ def get_directions(request):
     data = json.loads(request.body)
     starting_room = int(data['starting_room'])
     destination_room = int(data['destination_room'])
-    token = data['token']
+    # token = data['token']
 
     # Create an empty queue
     queue = Queue()
@@ -78,7 +78,7 @@ def get_directions(request):
             path_directions = get_pathing(path)
             # travel(path_directions, token)
             # return JsonResponse({'message': "Travel completed."}, safe=True)
-            return JsonResponse({'path': path, 'path_directions': path_directions}, safe=True)
+            return JsonResponse({'path': path[1:], 'path_directions': path_directions}, safe=True)
         # If it has not been visited...
         if room not in visited:
             # Mark it as visited
