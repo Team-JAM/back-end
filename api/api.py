@@ -5,7 +5,9 @@ from .models import *
 from rest_framework.decorators import api_view
 from util.queue import Queue
 from decouple import config
+from util.ls8 import decode
 import json
+import requests
 
 import pusher
 
@@ -19,6 +21,8 @@ pusher_client = pusher.Pusher(
 
 # example pusher trigger - channel - event - JSON data
 # pusher_client.trigger(f'channel-{token}', 'move', {'room_id': room_id})
+
+base_url = 'https://lambda-treasure-hunt.herokuapp.com/api/'
 
 @csrf_exempt
 @api_view(['GET'])
@@ -92,6 +96,7 @@ def get_directions(request):
                 queue.enqueue(path + [next_room])
     return JsonResponse({'error': list(visited)}, safe=True)
 
+
 def get_pathing(path):
     path_directions = []
     next_position = 1
@@ -135,3 +140,26 @@ def get_pathing(path):
         
     
     return path_directions
+
+@csrf_exempt
+@api_view(['POST'])
+def well(request):
+    data = json.loads(request.body)
+    token = data['token']
+    headers = {"Authorization": f"Token {token}"}
+
+    # examine well
+    payload = {"name": "well"}
+    r = requests.post(base_url + 'adv/examine/', headers=headers, json=payload)
+
+    description = r.json()['description']
+
+    _, message = description.split('\n\n')
+
+    with open('util/wishing_well.ls8', 'w') as f:
+        f.write(message)
+
+    # decode message
+    message = decode()
+
+    return JsonResponse({'message': message }, safe=True)
