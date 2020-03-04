@@ -99,7 +99,7 @@ def get_pathing(path):
     # check if room zero is first step and starting room not adjacent to room 0
     if path[1][1] == 0 and path[0][1] not in {1, 2, 4, 10}:
         # if so, start with recall
-        path_directions.append(('recall'))
+        path_directions.append(['recall'])
         next_position += 1
 
     while next_position < len(path):
