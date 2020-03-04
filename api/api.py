@@ -76,8 +76,9 @@ def get_directions(request):
         # If room is the desination, return the path
         if room == destination_room:
             path_directions = get_pathing(path)
-            travel(path_directions, token)
-            return JsonResponse({'message': "Travel completed."}, safe=True)
+            # travel(path_directions, token)
+            # return JsonResponse({'message': "Travel completed."}, safe=True)
+            return JsonResponse({'path': path, 'path_directions': path_directions}, safe=True)
         # If it has not been visited...
         if room not in visited:
             # Mark it as visited
