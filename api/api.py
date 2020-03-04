@@ -166,7 +166,9 @@ def travel(path_directions, token):
         # sleep for cooldown
         time.sleep(max(time_for_next_action - time.time(), 0))
         # move
-        r = requests.post(f'{base_url}{travel_mode}/', headers=headers, json=payload)
+        # breakpoint()
+        r = requests.post(f'{base_url}adv/{travel_mode}/', headers=headers, json=payload)
+        # breakpoint()
         # set cooldown
         time_for_next_action = time.time() + r.json()['cooldown']
 
