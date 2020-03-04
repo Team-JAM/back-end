@@ -119,7 +119,7 @@ def get_pathing(path):
                 break
         if hops > 2:
             next_room_ids = [str(path[i][1]) for i in range(next_position, next_position + hops)]
-            dash = ('dash', str(hops), ','.join(next_room_ids))
+            dash = ('dash', direction, str(hops), ','.join(next_room_ids))
             path_directions.append(dash)
             next_position += hops
             continue
