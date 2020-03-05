@@ -62,13 +62,14 @@ def get_directions(request):
     # Create an empty queue
     queue = Queue()
     # Add a path for starting_room_id to the queue
-    # Add a second option that recalls to room zero first
     # paths will contain tuple of (direction, room_id)
     queue.enqueue([(None, starting_room)])
-    queue.enqueue([(None, starting_room), (None, 0)])
     # Create an empty set to store visited rooms
     visited = set()
     while queue.size() > 0:
+        # reorder the queue with dashes counting as a single step
+        if queue.size() > 1:
+            reorder_queue(queue)
         # Dequeue the first path
         path = queue.dequeue()
         # Grab the last room from the path
@@ -89,6 +90,15 @@ def get_directions(request):
             except Room.DoesNotExist:
                 return JsonResponse({'error': f"Room {room} does not exist", 'path': path}, safe=True)
             adjacent_rooms = []
+            # Add recall to room zero unless adjacent to room zero (fly instead)
+            if room not in {1, 2, 4, 10}:
+                adjacent_rooms.append(('recall', 0))
+            # Add room's warp counterpart to the list of adjacent rooms
+            if room < 500:
+                adjacent_rooms.append(('warp', room + 500))
+            else:
+                adjacent_rooms.append(('warp', room - 500))
+            # Add adjecent rooms
             if current_room.n_to is not None:
                 adjacent_rooms.append(('n', current_room.n_to))
             if current_room.s_to is not None:
@@ -106,24 +116,19 @@ def get_pathing(path):
     path_directions = []
     next_position = 1
 
-    # check if room zero is first step and starting room not adjacent to room 0
-    if path[1][1] == 0 and path[0][1] not in {1, 2, 4, 10}:
-        # if so, start with recall
-        path_directions.append(['recall'])
-        next_position += 1
-    # if room 0 IS first step and starting room IS adjacent to room 0
-    elif path[1][1] == 0 and path[0][1] in {1, 2, 4, 10}:
-        # add direction to room 0 from starting room
-        if path[0][1] == 1:
-            path[1] = ('e', 0)
-        if path[0][1] == 2:
-            path[1] = ('n', 0)
-        if path[0][1] == 4:
-            path[1] = ('w', 0)
-        if path[0][1] == 10:
-            path[1] = ('s', 0)
-
     while next_position < len(path):
+
+        # first, check for a warp command
+        if path[next_position][0] == 'warp':
+            path_directions.append(['warp'])
+            next_position += 1
+            continue
+
+        # check for a recall command
+        if path[next_position][0] == 'recall':
+            path_directions.append(['recall'])
+            next_position += 1
+            continue
 
         # check if there are enough steps for a dash
         direction = path[next_position][0]
@@ -156,6 +161,32 @@ def get_pathing(path):
         
     
     return path_directions
+
+def reorder_queue(queue):
+    # for each list in the queue
+    for path in queue.queue:
+        # calcuate the steps and append the number of steps
+        steps = 0
+        hops = 0
+        next_position = 1
+        direction = path[next_position][0]
+        while next_position < len(path):
+            if path[next_position][0] == direction:
+                hops += 1
+            else:
+                break
+            if hops > 2:
+                next_position += hops
+            else:
+                next_position += 1
+            steps += 1
+        path.append(steps)
+    # sort lists by last value (steps)
+    queue.queue.sort(key=lambda path: path[-1])
+    # remove the steps values
+    for i in range(queue.size()):
+        queue.queue[i] = queue.queue[i][:-1]
+    return None
 
 def travel(path_directions, token):
     # # initiate travel mode
