@@ -7933,8 +7933,8 @@
   },
   "986": {
     "id": 986,
-    "title": "Darkness",
-    "description": "You are standing on grass and surrounded by darkness.",
+    "title": "Snitch Board",
+    "description": "A generic board stands before you with a golden snitch carved into the top.",
     "x_coord": 68,
     "y_coord": 70,
     "elevation": 0,

@@ -111,6 +111,17 @@ def get_pathing(path):
         # if so, start with recall
         path_directions.append(['recall'])
         next_position += 1
+    # if room 0 IS first step and starting room IS adjacent to room 0
+    elif path[1][1] == 0 and path[0][1] in {1, 2, 4, 10}:
+        # add direction to room 0 from starting room
+        if path[0][1] == 1:
+            path[1] = ('e', 0)
+        if path[0][1] == 2:
+            path[1] = ('n', 0)
+        if path[0][1] == 4:
+            path[1] = ('w', 0)
+        if path[0][1] == 10:
+            path[1] = ('s', 0)
 
     while next_position < len(path):
 
