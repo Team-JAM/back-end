@@ -237,3 +237,56 @@ def well(request):
     message = decode()
 
     return JsonResponse({'message': message, 'room': r.json() }, safe=True)
+
+@csrf_exempt
+@api_view(['POST'])
+def path_no_warp(request):
+    """
+    Return a list containing the shortest path from
+    starting_room to destination_room. Expected values
+    in the request are starting_room, destination_room, and token.
+    """
+    data = json.loads(request.body)
+    starting_room = int(data['starting_room'])
+    destination_room = int(data['destination_room'])
+    # token = data['token']
+
+    # Create an empty queue
+    queue = Queue()
+    # Add a path for starting_room_id to the queue
+    # Add a second option that recalls to room zero first
+    # paths will contain tuple of (direction, room_id)
+    queue.enqueue([(None, starting_room)])
+    queue.enqueue([(None, starting_room), (None, 0)])
+    # Create an empty set to store visited rooms
+    visited = set()
+    while queue.size() > 0:
+        # Dequeue the first path
+        path = queue.dequeue()
+        # Grab the last room from the path
+        room = path[-1][1]
+        # If room is the desination, return the path
+        if room == destination_room:
+            return JsonResponse({'path': path[1:]}, safe=True)
+        # If it has not been visited...
+        if room not in visited:
+            # Mark it as visited
+            visited.add(room)
+            # Then add a path all neighbors to the back of the queue
+            try:
+                current_room = Room.objects.get(id=room)
+            except Room.DoesNotExist:
+                return JsonResponse({'error': f"Room {room} does not exist", 'path': path}, safe=True)
+            adjacent_rooms = []
+            if current_room.n_to is not None:
+                adjacent_rooms.append(('n', current_room.n_to))
+            if current_room.s_to is not None:
+                adjacent_rooms.append(('s', current_room.s_to))
+            if current_room.e_to is not None:
+                adjacent_rooms.append(('e', current_room.e_to))
+            if current_room.w_to is not None:
+                adjacent_rooms.append(('w', current_room.w_to))
+            for next_room in adjacent_rooms:
+                queue.enqueue(path + [next_room])
+    return JsonResponse({'error': list(visited)}, safe=True)
+
