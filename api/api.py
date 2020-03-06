@@ -267,6 +267,17 @@ def path_no_warp(request):
         room = path[-1][1]
         # If room is the desination, return the path
         if room == destination_room:
+            # if room 0 IS first step and starting room IS adjacent to room 0
+            if path[1][1] == 0 and path[0][1] in {1, 2, 4, 10}:
+                # add direction to room 0 from starting room
+                if path[0][1] == 1:
+                    path[1] = ('e', 0)
+                if path[0][1] == 2:
+                    path[1] = ('n', 0)
+                if path[0][1] == 4:
+                    path[1] = ('w', 0)
+                if path[0][1] == 10:
+                    path[1] = ('s', 0)
             return JsonResponse({'path': path[1:]}, safe=True)
         # If it has not been visited...
         if room not in visited:
