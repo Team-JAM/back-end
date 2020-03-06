@@ -90,22 +90,22 @@ def get_directions(request):
             except Room.DoesNotExist:
                 return JsonResponse({'error': f"Room {room} does not exist", 'path': path}, safe=True)
             adjacent_rooms = []
-            # Add recall to room zero unless adjacent to room zero (fly instead)
-            if room not in {1, 2, 4, 10}:
+            # Add recall to room zero unless in or adjacent to room zero (fly instead)
+            if room not in {0, 1, 2, 4, 10} and 0 not in visited:
                 adjacent_rooms.append(('recall', 0))
             # Add room's warp counterpart to the list of adjacent rooms
-            if room < 500:
+            if room < 500 and (room + 500) not in visited:
                 adjacent_rooms.append(('warp', room + 500))
-            else:
+            elif room >= 500 and (room - 500) not in visited:
                 adjacent_rooms.append(('warp', room - 500))
             # Add adjecent rooms
-            if current_room.n_to is not None:
+            if current_room.n_to is not None and current_room.n_to not in visited:
                 adjacent_rooms.append(('n', current_room.n_to))
-            if current_room.s_to is not None:
+            if current_room.s_to is not None and current_room.s_to not in visited:
                 adjacent_rooms.append(('s', current_room.s_to))
-            if current_room.e_to is not None:
+            if current_room.e_to is not None and current_room.e_to not in visited:
                 adjacent_rooms.append(('e', current_room.e_to))
-            if current_room.w_to is not None:
+            if current_room.w_to is not None and current_room.w_to not in visited:
                 adjacent_rooms.append(('w', current_room.w_to))
             for next_room in adjacent_rooms:
                 queue.enqueue(path + [next_room])
@@ -179,7 +179,7 @@ def reorder_queue(queue):
                 next_position += hops
             else:
                 next_position += 1
-            steps += 1
+        steps += 1
         path.append(steps)
     # sort lists by last value (steps)
     queue.queue.sort(key=lambda path: path[-1])
