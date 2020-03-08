@@ -254,10 +254,9 @@ def path_no_warp(request):
     # Create an empty queue
     queue = Queue()
     # Add a path for starting_room_id to the queue
-    # Add a second option that recalls to room zero first
+    # Avoids using recall - optimal for gathering treasure
     # paths will contain tuple of (direction, room_id)
     queue.enqueue([(None, starting_room)])
-    queue.enqueue([(None, starting_room), (None, 0)])
     # Create an empty set to store visited rooms
     visited = set()
     while queue.size() > 0:
